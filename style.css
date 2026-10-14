@@ -219,69 +219,58 @@ body{
     text-align: center;
 }
 
-.cards{
-    padding: 40px 75px 80px;
-    box-sizing: border-box;
+.tech-stack .intro-tech{
+    text-align: center;
+    padding-top: 100px;
 }
 
-.main-card{
-    width: 100%;
-    margin: 30px 0 0;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(260px, 1fr));
-    gap: 20px;
-    box-sizing: border-box;
+.intro-tech h3{
+    font-size: 50px;
 }
 
-.main-card > div{
-    background-color: rgb(250, 235, 215);
-    border: 1px solid #222;
-    border-radius: 12px;
-    padding: 24px 20px;
+.intro-tech p{
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+.tech-icons{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    min-height: 230px;
-    box-sizing: border-box;
+    align-items: center;
+    padding: 80px 600px;
 }
 
-.main-card h3{
-    font-size: 24px;
-    margin-bottom: 12px;
+.tech-icons i{
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+    padding: 15px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
 }
 
-.main-card p{
-    margin-bottom: 18px;
-    line-height: 1.6;
+.tech-icons h3{
+    padding-top: 15px;
+    text-align: center;
 }
 
-.main-card a{
-    display: inline-block;
-    color: #000;
-    text-decoration: none;
-    font-weight: 600;
-    align-self: flex-start;
+.HTML-icon i{
+    text-align: center;
+    background-color: orangered;
+    font-size: 50px;
+    padding: 15px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
 }
 
-.card1,
-.card2,
-.card3,
-.card4{
-    background-color: rgb(250, 235, 215);
-}
-
-@media (max-width: 980px){
-    .main-card{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (max-width: 560px){
-    .cards{
-        padding: 40px 20px 80px;
-    }
-
-    .main-card{
-        grid-template-columns: 1fr;
-    }
+.CSS-icon i{
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    padding: 15px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
 }
